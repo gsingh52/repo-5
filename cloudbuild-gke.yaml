@@ -1,7 +1,7 @@
 steps:
 # Clone the repo
 - name: 'gcr.io/cloud-builders/git'
-  args: ['clone', 'https://github.com/gsingh52/repo-5.git']'
+  args: ['clone', 'https://github.com/gsingh52/repo-5.git']
 
 # Build the container image
 - name: 'gcr.io/cloud-builders/docker'
